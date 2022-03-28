@@ -1,0 +1,13 @@
+C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess.Data\bin\Debug\netcoreapp3.1\WemaAssess.Data.deps.json
+C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess.Data\bin\Debug\netcoreapp3.1\WemaAssess.Data.dll
+C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess.Data\bin\Debug\netcoreapp3.1\WemaAssess.Data.pdb
+C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess.Data\bin\Debug\netcoreapp3.1\WemaAssess.Infrastructure.dll
+C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess.Data\bin\Debug\netcoreapp3.1\WemaAssess.Infrastructure.pdb
+C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess.Data\obj\Debug\netcoreapp3.1\WemaAssess.Data.csproj.AssemblyReference.cache
+C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess.Data\obj\Debug\netcoreapp3.1\WemaAssess.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess.Data\obj\Debug\netcoreapp3.1\WemaAssess.Data.AssemblyInfoInputs.cache
+C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess.Data\obj\Debug\netcoreapp3.1\WemaAssess.Data.AssemblyInfo.cs
+C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess.Data\obj\Debug\netcoreapp3.1\WemaAssess.Data.csproj.CoreCompileInputs.cache
+C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess.Data\obj\Debug\netcoreapp3.1\WemaAssess.Data.csproj.CopyComplete
+C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess.Data\obj\Debug\netcoreapp3.1\WemaAssess.Data.dll
+C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess.Data\obj\Debug\netcoreapp3.1\WemaAssess.Data.pdb
