@@ -29,8 +29,26 @@ namespace WemaAssess.Data.Services.Implementation
         {
             try
             {
-                var model = _mapper.Map<Customer>(req);
-                return true;
+             
+                //to send otp
+                var otp = await SendOtp(req.PhoneNumber);
+
+                //to verifyotp
+                if(otp == "123456")
+                {
+                    var model = _mapper.Map<Customer>(req);
+
+                    //to add cust
+                    var added = await _unit.Customer.AddAsync(model);
+
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+
+               
             }
             catch(Exception ex)
             {
@@ -45,12 +63,30 @@ namespace WemaAssess.Data.Services.Implementation
                 var res = await _unit.Customer.GetAllAsync();
 
                 var model = _mapper.Map<List<CustomerDto>>(res.ToList());
-                return new List<CustomerDto>();
+                return model;
             }
             catch(Exception ex)
             {
                 return new List<CustomerDto>();
             }
         }
+
+
+        //mock services
+        public async Task<string> SendOtp(string phone)
+        {
+            try
+            {
+                // method to sendotp to the phone number
+                //and return the otp
+                return "123456";
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
     }
 }

@@ -13,5 +13,7 @@ namespace WemaAssess.Infrastructure.Data
         }
 
         public DbSet<Customer> Customers { get; set; }
+        public DbSet<State> States { get; set; }
+        public DbSet<Lga> Lgas { get; set; }
     }
 }

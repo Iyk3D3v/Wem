@@ -12,6 +12,7 @@ namespace WemaAssess.Data.Mappings
         public MappingProfile()
         {
             CreateMap<CustomerDto, Customer>().ReverseMap();
+            CreateMap<StateDto, State>().ReverseMap();
         }
     }
 }

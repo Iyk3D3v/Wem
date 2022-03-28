@@ -4,6 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WemaAssess.Data.Dtos;
+using WemaAssess.Data.Services.Interfaces;
 
 namespace WemaAssess.Controllers
 {
@@ -12,9 +14,10 @@ namespace WemaAssess.Controllers
     public class BankController : ControllerBase
     {
 
-        public BankController()
+        private IBankService _service;
+        public BankController(IBankService service)
         {
-
+            _service = service;
         }
 
 
@@ -24,7 +27,13 @@ namespace WemaAssess.Controllers
         {
             try
             {
-                return Ok();
+                var res = await _service.GetBanks();
+                return Ok(new ResponseDto
+                {
+                    Data = res,
+                    Message = "Success",
+                    Status = true
+                });
             }
             catch(Exception ex)
             {

@@ -50,3 +50,5 @@ C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess\obj\Debug\netcoreapp3.1\
 C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess\obj\Debug\netcoreapp3.1\WemaAssess.dll
 C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess\obj\Debug\netcoreapp3.1\WemaAssess.pdb
 C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess\obj\Debug\netcoreapp3.1\WemaAssess.genruntimeconfig.cache
+C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

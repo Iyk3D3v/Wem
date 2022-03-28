@@ -8,3 +8,6 @@ C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess.Infrastructure\obj\Debug
 C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess.Infrastructure\obj\Debug\netcoreapp3.1\WemaAssess.Infrastructure.csproj.CoreCompileInputs.cache
 C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess.Infrastructure\obj\Debug\netcoreapp3.1\WemaAssess.Infrastructure.dll
 C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess.Infrastructure\obj\Debug\netcoreapp3.1\WemaAssess.Infrastructure.pdb
+C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess.Infrastructure\bin\Debug\netcoreapp3.1\WemaAssess.Infrastructure.runtimeconfig.json
+C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess.Infrastructure\bin\Debug\netcoreapp3.1\WemaAssess.Infrastructure.runtimeconfig.dev.json
+C:\Users\Iyke-builds\source\repos\WemaAssess\WemaAssess.Infrastructure\obj\Debug\netcoreapp3.1\WemaAssess.Infrastructure.genruntimeconfig.cache

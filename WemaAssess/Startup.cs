@@ -14,6 +14,9 @@ using WemaAssess.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using AutoMapper;
 using Microsoft.OpenApi.Models;
+using WemaAssess.Infrastructure.Repository;
+using WemaAssess.Data.Services.Implementation;
+using WemaAssess.Data.Services.Interfaces;
 
 namespace WemaAssess
 {
@@ -30,6 +33,14 @@ namespace WemaAssess
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddTransient(typeof(IUnitOfWork), typeof(UnitOfWork));
+            services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
+
+            services.AddScoped(typeof(ICustomerService), typeof(CustomerService));
+            services.AddScoped(typeof(IStateService), typeof(StateService));
+            services.AddScoped(typeof(ILgaService), typeof(LgaService));
+            services.AddScoped(typeof(IBankService), typeof(BankService));
 
             //need to add dbcontext
             services.AddDbContext<DataContext>(options =>
